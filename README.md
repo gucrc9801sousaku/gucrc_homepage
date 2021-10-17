@@ -1,1 +1,3 @@
 # gucrc_homepage
+
+いえーい
