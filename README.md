@@ -1,3 +1,3 @@
 # gucrc_homepage
-
-いえーい!www
+www
+いえーい!
