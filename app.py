@@ -9,4 +9,5 @@ def home():
     return template("templates/lp.html")
 
 if __name__ == '__main__':
-    run(host='localhost', port=5000, reloader=True, debug=True)
+    port = int(os.getenv("PORT", 5000))
+    run(host="0.0.0.0", port=port, debug=True)
