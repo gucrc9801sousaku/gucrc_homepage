@@ -9,4 +9,4 @@ def home():
     return template("templates/lp.html")
 
 if __name__ == '__main__':
-    run(host='localhost', port=8080, reloader=True, debug=True)
+    run(host='localhost', port=5000, reloader=True, debug=True)
