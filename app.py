@@ -1,3 +1,4 @@
+import os
 from bottle import route, jinja2_template as template, run, static_file
 
 @route('/static/<filename:path>')
