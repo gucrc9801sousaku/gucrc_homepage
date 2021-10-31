@@ -1,1 +1,1 @@
-web: gunicorn manage:app --preload
+web: python3 app.py
